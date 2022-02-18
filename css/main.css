@@ -1,0 +1,42 @@
+/* цвет основного текста  #757575;*/
+/* цвет вторичного текста #212121;*/
+/* цвет фона вторичный #2F303A;*/
+/* цвет акцент #2196F3;*/
+/* цвет белый #FFFFFF;*/
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+/* header*/
+.logo {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/*hero*/
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+.hero-title {
+  color: #ffffff;
+}
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/* Секции*/
+.section-title {
+  color: var(--title-text-color);
+}
+/* Футер*/
