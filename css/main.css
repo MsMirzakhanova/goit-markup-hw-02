@@ -21,7 +21,17 @@ ul {
 .logo {
   color: var(--accent-color);
 }
+.site-nav .link {
+  color: var(--title-text-color);
+}
 .site-nav .link.current {
+  color: var(--accent-color);
+}
+.contact .link {
+  color: var(--primary-text-color);
+}
+.contact .link:hover,
+.contact .link:focus {
   color: var(--accent-color);
 }
 /*hero*/
@@ -40,3 +50,19 @@ ul {
   color: var(--title-text-color);
 }
 /* Футер*/
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+.footer .link-logo {
+  color: #212121;
+}
+.adress {
+  color: var(--primary-bg-color);
+}
+
+/*Портфолио*/
+/*button*/
+.btn-portfolio {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
