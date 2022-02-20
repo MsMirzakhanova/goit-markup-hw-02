@@ -33,6 +33,7 @@ ul {
   line-height: 1, 19;
   text-align: left;
   letter-spacing: 3%;
+  text-decoration: none;
 }
 .logo-part {
   color: var(--accent-color);
@@ -45,6 +46,7 @@ ul {
   line-height: 1, 14;
   text-align: left;
   letter-spacing: 2%;
+  text-decoration: none;
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -56,6 +58,7 @@ ul {
   line-height: 1, 14;
   text-align: left;
   letter-spacing: 2%;
+  text-decoration: none;
 }
 .contact .link:hover,
 .contact .link:focus {
@@ -83,6 +86,7 @@ ul {
   line-height: 1, 9;
   text-align: center;
   vertical-align: center;
+  text-decoration: none;
 }
 
 /* Секции*/
@@ -125,6 +129,7 @@ ul {
 }
 .footer .link-logo {
   color: #212121;
+  text-decoration: none;
 }
 .adress {
   color: var(--primary-bg-color);
@@ -139,6 +144,7 @@ ul {
   line-height: 1, 9;
   text-align: left;
   vertical-align: top;
+  text-decoration: none;
 }
 /*button*/
 .btn-portfolio {
@@ -150,6 +156,7 @@ ul {
   line-height: 1, 9;
   text-align: center;
   vertical-align: top;
+  text-decoration: none;
 }
 
 .btn-portfolio.accent {
