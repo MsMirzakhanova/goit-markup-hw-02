@@ -3,169 +3,195 @@
 /* цвет фона вторичный #2F303A;*/
 /* цвет акцент #2196F3;*/
 /* цвет белый #FFFFFF;*/
+/* цвет gпепельный #F5F4FA;*/
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #2f303a;
+  --team-bg-color: #f5f4fa;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
 }
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 3%;
 }
-ul {
+.list {
   list-style: none;
 }
 /* header*/
-.logo {
+.logo-header {
   color: var(--title-text-color);
 
   font-family: raleway, sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   text-align: left;
-  letter-spacing: 3%;
   text-decoration: none;
 }
 .logo-part {
   color: var(--accent-color);
 }
 /*nav*/
-.site-nav .link {
+.nav-link {
   color: var(--title-text-color);
-  font-style: 500;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   text-align: left;
-  letter-spacing: 2%;
   text-decoration: none;
 }
-.site-nav .link.current {
+.nav-link.current {
   color: var(--accent-color);
 }
-.contact .link {
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.contacts-header-link {
   color: var(--primary-text-color);
-  font-style: 500;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   text-align: left;
-  letter-spacing: 2%;
   text-decoration: none;
 }
-.contact .link:hover,
-.contact .link:focus {
+.contacts-header-link:hover,
+.contacts-header-link:focus {
   color: var(--accent-color);
 }
 /*hero*/
 .hero {
   background-color: var(--secondary-bg-color);
-  color: #ffffff;
+  color: var(--primary-bg-color);
 
-  font-style: 900;
+  font-weight: 900;
   font-size: 44px;
-  line-height: 1, 4;
+  line-height: 1.4;
+  text-transform: uppercase;
   text-align: center;
   vertical-align: top;
-  letter-spacing: 6%;
 }
 .hero-button {
-  color: #ffffff;
+  color: var(--primary-bg-color);
   background-color: var(--accent-color);
 
   font-family: inherit;
-  font-style: 700;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1, 9;
+  line-height: 1.9;
   text-align: center;
   vertical-align: center;
   text-decoration: none;
 }
 
 /* Секции*/
-.features .title {
+.features-title {
   color: var(--title-text-color);
-  font-style: 700;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1, 17;
+  line-height: 1.17;
   text-align: left;
   vertical-align: top;
 }
-
-.works .title {
+.works-title {
   color: var(--title-text-color);
-  font-style: 700;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   vertical-align: top;
 }
 .team {
+  background-color: var(--team-bg-color);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   vertical-align: top;
 }
-.team .team-title {
+.team-title {
   color: var(--title-text-color);
-  font-style: 700;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
 }
-.team .title {
+.team-title-name {
   color: var(--title-text-color);
-  font-style: 500;
+  font-weight: 500;
 }
 /* Футер*/
 .footer {
   background-color: var(--secondary-bg-color);
 }
-.footer .link-logo {
-  color: #212121;
+.logo-footer {
+  color: var(--primary-bg-color);
+
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  text-align: left;
   text-decoration: none;
 }
-.adress {
+.address {
   color: var(--primary-bg-color);
+  font-style: normal;
+}
+.contacts-footer-link {
+  color: var(--contacts-footer-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-decoration: none;
+}
+.contacts-footer-link:hover,
+.contacts-footer-link:focus {
+  color: var(--accent-color);
 }
 
 /*Портфолио*/
-
-.portfolio .link {
-  color: var(--primary-text-color);
-  font-style: 400;
-  font-size: 16px;
-  line-height: 1, 9;
-  text-align: left;
-  vertical-align: top;
-  text-decoration: none;
-}
 /*button*/
 .btn-portfolio {
   color: var(--title-text-color);
   background-color: #f5f4fa;
   font-family: inherit;
-  font-style: 500;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1, 9;
+  line-height: 1.9;
   text-align: center;
   vertical-align: top;
   text-decoration: none;
+  border: radius 4px;
 }
-
+.btn-portfolio:focus,
+.btn-portfolio:hover {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
 .btn-portfolio.accent {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
 }
-.portfolio .title {
+.portfolio-link {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: left;
+  vertical-align: top;
+  text-decoration: none;
+}
+.portfolio-title {
   color: var(--title-text-color);
-  font-style: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   text-align: left;
