@@ -70,13 +70,14 @@ body {
 .hero {
   background-color: var(--secondary-bg-color);
   color: var(--primary-bg-color);
-
+  text-align: center;
+  vertical-align: top;
+}
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   text-transform: uppercase;
-  text-align: center;
-  vertical-align: top;
 }
 .hero-button {
   color: var(--primary-bg-color);
@@ -86,8 +87,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  text-align: center;
-  vertical-align: center;
   text-decoration: none;
 }
 
